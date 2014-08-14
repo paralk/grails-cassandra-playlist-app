@@ -15,7 +15,10 @@
   		<asset:stylesheet src="playlist.css"/>		
 		<g:layoutHead/>
 	</head>
-	<body>		
+	<body>	
+		<section class="menu small">
+			<g:link uri="">Home</g:link>	
+		</section>
 		<g:layoutBody/>		
 	</body>
 </html>

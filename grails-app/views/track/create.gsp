@@ -5,11 +5,7 @@
 <meta name="layout" content="main">
 
 </head>
-<body>
-
-	<section class="menu small">
-		<a href="home">Home</a>
-	</section>
+<body>	
 	<g:if test="${flash.message}">
 		<div class="message" role="status">
 			${flash.message}

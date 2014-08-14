@@ -3,12 +3,8 @@
 <head>   
     <title>Playlist</title>
     <meta name="layout" content="main"/>
-
 </head>
 <body>
-<section class="menu small">
-  <g:link uri="">Home</g:link>
-</section>
 <g:if test="${error}">
 <p class="error">  
     ${error}

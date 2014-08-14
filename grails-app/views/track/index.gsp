@@ -7,7 +7,6 @@
 </head>
 <body>
 <section class="menu small">
-
     <g:render template="../trackheader"/>    
     <g:if test="${params.genre}">
     	<h2>${params.genre} Songs</h2>

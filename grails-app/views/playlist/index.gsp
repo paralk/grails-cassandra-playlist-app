@@ -6,8 +6,7 @@
 
 </head>
 <body>
-<section class="menu small">
-    <g:link uri="">Home</g:link>
+<section class="menu small">    
     <g:link controller="login" action="logout">Logout</g:link>
     <br/>
     <h2>Playlists for ${session.user?.username}</h2>

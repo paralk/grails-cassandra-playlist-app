@@ -1,6 +1,5 @@
 <g:if test="${!frame}">
-    <div id="topmatter" class="alphabet">        
-        <g:link elementId="homebutton" uri="" >Home</g:link>
+    <div id="topmatter" class="alphabet">                
         <g:link controller="track" action="create">Add a Song</g:link>
     </div>
 </g:if>
