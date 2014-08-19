@@ -120,5 +120,5 @@ log4j = {
            'net.sf.ehcache.hibernate'
 }
 grails.app.context="playlist"
-//grails.cassandra.schemaAction='RECREATE_DROP_UNUSED'
+grails.cassandra.schemaAction='RECREATE_DROP_UNUSED'
 grails.cassandra.keyspace="grailsplaylist"
