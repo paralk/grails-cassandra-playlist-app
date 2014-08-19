@@ -1,10 +1,7 @@
 package playlist
 
-import grails.gorm.CassandraEntity
-
 import com.datastax.driver.core.ResultSet
 
-@CassandraEntity
 class User {
 
     String username

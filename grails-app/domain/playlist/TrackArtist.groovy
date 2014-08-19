@@ -1,8 +1,6 @@
 package playlist
 
-import grails.gorm.CassandraEntity
 
-@CassandraEntity
 class TrackArtist {
 
     UUID trackId
